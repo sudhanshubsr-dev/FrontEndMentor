@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #d5e1ef;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .container {
+        background-color: white;
+        width: 260px;
+        height: 430px;
+        border-radius: 20px;
+        box-shadow: -10px 20px 30px rgba(148, 186, 207, 0.2);
+      }
+
+      .qrcode {
+        width: 100%;
+        padding: 15px;
+      }
+
+      .qrcode img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .info {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .title {
+        font-size: 1.1em;
+        font-family: sans-serif;
+        color: #000000;
+        line-height: 1.4em;
+      }
+      .subTitle {
+        font-size: 0.8em;
+        font-family: sans-serif;
+        color: #abb0b6;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 375px) {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="qrcode">
+        <img src="images/image-qr-code.png" alt="qr-code" />
+      </div>
+      <div class="info">
+        <h2 class="title">
+          Improve your front-end skills by building projects
+        </h2>
+        <p class="subTitle">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
